@@ -1,0 +1,8 @@
+{
+  "name": "Admin-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "cf0327f8"
+}
