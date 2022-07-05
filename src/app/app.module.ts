@@ -9,6 +9,7 @@ import { Platform } from '@ionic/angular';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './pages/shared/interceptor/auth.interceptor';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,7 +19,9 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,  
+    ReactiveFormsModule  
   ],
   providers: [
     Platform,
