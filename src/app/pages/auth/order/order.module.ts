@@ -14,7 +14,8 @@ import { OrderPage } from './order.page';
     FormsModule,
     IonicModule,
     OrderPageRoutingModule,
-    ReactiveFormsModule
+    
+    
  ],
   declarations: [OrderPage]
 })
